@@ -4,7 +4,6 @@
     padding-top: 1%;
     padding-bottom: 1%;
 }
-#navigation{
-    list-style: none;
-    display: inline;
+footer{
+    background-color: firebrick ;
 }
