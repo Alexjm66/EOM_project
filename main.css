@@ -4,7 +4,26 @@
     padding-top: 1%;
     padding-bottom: 1%;
 }
+nav{
+    background-color: mediumaquamarine;
+    width: 20%;
+    height: 300px;
+    display: inline-block;
+}
+nav ul{
+    list-style: none;
+    display: inline;
+}
+
+article {
+    width: 80%;
+    height: 300px;
+    float: right;
+
+}
+
 footer{
     background-color: firebrick ;
     padding: 20px;
+    text-align: right;
 }
