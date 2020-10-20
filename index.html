@@ -7,12 +7,7 @@
     <body>
         <header>
             <div>
-                <div id="images">
-                    <img src="images/images1.jpeg" width="125px" height="100px">
-                </div>
-                <div id="images2">
-                    <img src="images/images2.jpeg" width="125px" height="100px">
-                </div>
+                
                 <div id="banner">
                     <div class="heading">
                         <h1>Exclusive Kicks</h1>
@@ -22,9 +17,9 @@
             </div>
         </header>
         <div id="nav">
-            <a href="index.html">Home page</a>
-            <a href="content.html">Shop Now</a>
-            <a href="contact.html">Contact Us</a>
+            <a href="index.html" class="home">Home</a>
+            <a href="content.html" class="content">Shop Now</a>
+            <a href="contact-us.html" class="contact">Contact Us</a>
 
             <div id="search">
                 <table>
@@ -35,9 +30,23 @@
                 </table>
             </div>
         </div>
+        
         <div id="image3">
-            <img src="images/image3.jpg">
+            <marquee scrollamount="30" onmouseover="stop()" onmouseout="start()">
+                <img src="images/image3.jpg" width="1200px" height="1000px">
+                <img src="images/image8.jpg" width="1200px" height="1000px">
+                <img src="images/image9.jpg" width="1200px" height="1000px">
+                <img src="images/image10.jpg" width="1200px" height="1000px">
+                <img src="images/image7.jpg" width="1200px" height="1000px">
+            </marquee>
         </div>
         
+        <div class="head2">
+            <h1>Welcome to Exclusive Kicks</h1>
+        </div>
+        
+        <p>Exclusive Kicks was founded in 2019, we are a local based company that imports only the rarest and most <B class="highlight">EXCLUSIVE</B> kicks.
+         For all those sneakerheads out there, come down to our stores or shop on this websites. We have a variety of sneakers from Exclusive to general realeases</p>
+
     </body>
 </html>
