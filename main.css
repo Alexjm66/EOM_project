@@ -1,35 +1,54 @@
-
-header #images{
-    float: left;
-    clear: right;
-    padding: 2px;
-}
-header #images2{
-    float: right;
-    padding: 2px;
-}
 header{
     background-color: black;
-    padding-top: 1px;
+    margin: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    padding-top: 1.5px;
     padding-bottom: 4px;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 #banner{
     color: red;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
-    padding-top: 1px;
+    padding-top: .8px;
 }
 #nav{
-    float: right;
     background-color: red; width: 100%;
-    
+    padding-bottom: 26px;
+
+
 }
 #nav a{
     color: black;
+    padding: 4px;
+    padding-top: 1%;
+    font-size: 20px;
 }
 #search{
     float: right;
     padding-top: 1px;
+}
+
+#nav a:hover{
+    color: whitesmoke;
+    background-color: black;
+}
+#image3{
+    padding-top: 10px;
+}
+.highlight{
+    color: red;
+}
+
+.head2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
 }
