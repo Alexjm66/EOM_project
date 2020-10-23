@@ -20,9 +20,13 @@ header #nav{
     padding-top: 5px;
     padding-bottom: 6px;
     text-align: center;
+    
 }
 header #nav a{
     color: silver;
+    font-family: Impact;
+    font-style: bold;
+
 }
 header #nav a:hover{
     color: black;
@@ -36,10 +40,10 @@ header #nav a:hover{
 
 #p1{
     text-align: center;
-    padding-left: 120px;
+    padding-left: 170px;
     padding-right: 170px;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: oblique;
+    font-style: bold;
 }
 
 #images{
@@ -47,9 +51,7 @@ header #nav a:hover{
 }
 
 
-div h1{
-    padding-right: 8%;
-}
+
 #image7{
     padding-left: 90px;
 }
