@@ -1,71 +1,72 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Personal Website</title>
+        <title>Exclusive Kicks</title>
     </head>
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link type="text/css" rel="stylesheet" href="main.css">
     <body>
         <header>
-            <div>
-                
+            <div id="heading">
                 <div id="banner">
-                    <div id="img1">
-                        <img src="images/image1.jpg" width="350px" height="250px">
-                    </div>
-                   
-                    <div class="heading">
-                        <h1>Exclusive Kicks</h1>
-                    </div>
-                    
-                    
+                    <h1>Exclusive Kicks</h1>
                 </div>
+                <div id="search">
+                    <input type="search" placeholder="Search Here">
+                    <input type="submit" value="Search">
+                </div>
+            </div>
+            <div id="nav">
+                <a href="index.html">Home /</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="content.html">Shop Now /</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="contact_us.html">Contact Us /</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
         </header>
-        <div id="nav">
-            <a href="index.html" class="home">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="content.html" class="content">Shop Now</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="contact-us.html" class="contact">Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <marquee scrollamount="25" onmouseover="stop()" onmouseout="start()">
+            <img src="images/image1.jpg" width="20%">
+            <img src="images/image2.jpg" width="20%">
+            <img src="images/image3.jpg" width="20%">
+            <img src="images/image4.jpg" width="20%">
+        </marquee>
 
-            <div id="search">
-                <table>
-                    <tr>
-                        <td><input type="submit" value="Search" ></td>
-                        <td><input type="search" placeholder="Search Here"></td>
-                    </tr>
-                </table>
-            </div>
+        <div id="subheading">
+            <h1>Welcome To Our Website</h1><hr width="45%">
         </div>
-        
-        <div id="image3">
-            <marquee scrollamount="30" onmouseover="stop()" onmouseout="start()">
-                <img src="images/image3.jpg" width="1200px" height="1000px">
-                <img src="images/image8.jpg" width="1200px" height="1000px">
-                <img src="images/image9.jpg" width="1200px" height="1000px">
-                <img src="images/image10.jpg" width="1200px" height="1000px">
-                <img src="images/image7.jpg" width="1200px" height="1000px">
-            </marquee>
+        <div id="p1">
+            <p>Our company was founded in 2019, we are a localized sneaker store that sells the most rarest bubbles and jordans of all time. We are based in Cape Town
+                and encourage all the sneaker heads out there to come and visit our store or if thats a hassel, shop right here on our very own website.
+            </p><hr width="45%"><br>
         </div>
-        
-        <div class="head2">
-            <h1>Welcome to Exclusive Kicks</h1><hr style="width: 45%;">
-        </div>
-        
-        <p>Exclusive Kicks was founded in 2019, we are a local based company that imports only the rarest and most <B class="highlight">EXCLUSIVE</B> kicks.
-         For all those sneakerheads out there, come down to our stores or shop on this websites. We have a variety of sneakers from Exclusive to general realeases.
-        Our aim is to take over the sneaker world and be the top store, not just locally but globally as well </p><hr width="45%"><br>
-        <div id="img-container">
-            <div id="image4">
-                <img src="images/image11.jpeg" width="1500px" height="1000px">
-                <div id="button">
-                    <input type="submit" value="Shop Exclusive" style="width: 500px; height: 60px; font-size: 30px;" >
+        <div id="images">
+            <div id="image7">
+                <div id="bb4">
+                    <h1>Shop Exclusive</h1>
                 </div>
-                
+                <img src="images/image11.jpeg" width="800px" height="600px">
+                <div class="exclusive">
+                    <input type="submit" value="Shop Now">
+                </div>
             </div>
-            <div id="image5">
-                <img src="images/image13.jpg" width="1500px" height="1000px">
+
+            <div id="image8">
+                <h1>Shop Retro</h1>
+                <img src="images/image8.jpg" width="800px%" height="600px">
+                <div class="retro">
+                    <input type="submit" value="Shop Now">
+                </div>
+            </div>
+           
+        </div>
+        <div id="image9">
+            <div>
+                <h1>Shop All</h1>
+            </div>
+            <img src="images/image12.jpeg" width="90%" height="80%">
+            <div class="all">
+                <input type="submit" value="Shop Now">
             </div>
         </div>
-       
-
     </body>
+    <footer id="footer">
+        <img src="images/image5.jpg" width="50px" height="30px">
+    </footer>
 </html>
